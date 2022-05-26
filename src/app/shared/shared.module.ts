@@ -6,12 +6,11 @@ import { TopButtonComponent } from './top-button/top-button.component';
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
 
 
-
 @NgModule({
   declarations: [
     FooterComponent,
     NavbarComponent,
-    TopButtonComponent
+    TopButtonComponent,
   ],
   imports: [
     CommonModule,
