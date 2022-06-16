@@ -12,7 +12,8 @@ import { AngularMaterialModule } from '../angular-material/angular-material.modu
     CarouselComponent
   ],
   exports:[
-    CardDetalleComponent
+    CardDetalleComponent,
+    CarouselComponent
   ],
   imports: [
     CommonModule,

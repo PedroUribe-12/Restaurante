@@ -5,6 +5,7 @@ import { PlatillosPrincipalesComponent } from './platillos-principales/platillos
 import { PlatillosVegetarianosComponent } from './platillos-vegetarianos/platillos-vegetarianos.component';
 import { PostresFriosComponent } from './postres-frios/postres-frios.component';
 import { PostresCalientesComponent } from './postres-calientes/postres-calientes.component';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -17,7 +18,8 @@ import { PostresCalientesComponent } from './postres-calientes/postres-calientes
     PostresCalientesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ComponentsModule
   ]
 })
 export class PagesModule { }
