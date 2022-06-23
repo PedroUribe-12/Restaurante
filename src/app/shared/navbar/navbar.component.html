@@ -1,16 +1,16 @@
 <nav class="bg-warning text-center py-1 menu fixed-top ">
-    <button mat-button>Home</button>
+    <button mat-button routerLink="/home">Home</button>
 
     <button mat-button [matMenuTriggerFor]="belowMenu">Platillos</button>
     <mat-menu #belowMenu="matMenu" yPosition="below">
-        <button mat-menu-item>Principales</button>
-        <button mat-menu-item>Vegetarianos</button>
+        <button mat-menu-item routerLink="/platillos_principales">Principales</button>
+        <button mat-menu-item routerLink="/platillos_vegetarianos">Vegetarianos</button>
     </mat-menu>
 
     <button mat-button [matMenuTriggerFor]="beforeMenu">Postres</button>
     <mat-menu #beforeMenu="matMenu" xPosition="before">
-        <button mat-menu-item>Calientes</button>
-        <button mat-menu-item>Frios</button>
+        <button mat-menu-item routerLink="/postres_calientes">Calientes</button>
+        <button mat-menu-item routerLink="/postres_frios">Frios</button>
     </mat-menu>
 
 

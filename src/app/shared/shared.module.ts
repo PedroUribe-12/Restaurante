@@ -4,6 +4,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TopButtonComponent } from './top-button/top-button.component';
 import { AngularMaterialModule } from '../angular-material/angular-material.module';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AngularMaterialModule } from '../angular-material/angular-material.modu
   ],
   imports: [
     CommonModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    AppRoutingModule
   ],
   exports:[
     FooterComponent,
