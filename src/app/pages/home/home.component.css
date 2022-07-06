@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    opacity: 0.8;
+    margin: 2em 0;
+}
+
+button{
+    font-weight: bold;
+    background: #e9ac05;
+    border: 2px solid;
+    padding: 0.6em 3.5em;
+    margin: auto;
+    border-radius: 50px;
+    font-size: 0.9em;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.banner{
+    color: white;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-image: url(../../../assets/platos_banner/cooking-banner-vegetables-spices-black-background-free-space-your-text-rustic-style-182817979.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.banner_descripcion{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
