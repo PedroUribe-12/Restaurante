@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .example-card {
     max-width: 400px;
   }
@@ -15,4 +21,13 @@
     background-color: rgba(173, 170, 170, 0.938);
     transition: 400ms;
     color: white;
+}
+
+.mat-card-header {
+    justify-content: center;
+}
+
+img{
+    object-fit: cover;
+    height: 25em;
 }
